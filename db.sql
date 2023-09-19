@@ -1,0 +1,11 @@
+CREATE DATABASE demo_db;
+USE demo_db;
+
+CREATE TABLE users (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    sin VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+);
